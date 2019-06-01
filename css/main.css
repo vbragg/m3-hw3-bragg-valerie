@@ -25,9 +25,6 @@
   padding-top: 4%;
   padding-bottom: 4%;
 }
-@font-face {
-  
-}
 nav {
   background-color: #f8df1f;
   font-family: 'Roboto', sans-serif;
@@ -45,6 +42,22 @@ nav ul li {
 }
 nav ul li span {
   color: #ee252f;
+}
+.background-image {
+  height: 500px;
+  background-image: url('banner-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.background-color {
+  height: 100%;
+  background-color: #3B3838;
+  opacity: 0.33;
+}
+.float {
+  float: right;
+  right: 50%;
+  top: 50%;
 }
 button {
   background-color: #f8df1f;
@@ -64,21 +77,6 @@ h2 {
 }
 h2 span {
   color: #ee252f;
-}
-.pic {
-  display: block;
-  margin: auto;
-  opacity: 0.33;
-}
-.centered {
-  position: relative;
-  display: block;
-  margin: auto;
-}
-.centered .logomiddle {
-  position: absolute;
-  top: 21%;
-  right: 40%;
 }
 p {
   font-family: 'Roboto', sans-serif;

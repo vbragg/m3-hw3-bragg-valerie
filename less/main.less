@@ -1,7 +1,4 @@
 @import "variables";
-@font-face {
-
-}
 
 
 nav {
@@ -19,6 +16,25 @@ nav {
   }
 }
 
+.background-image {
+  height: 500px;
+  background-image: url('banner-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.background-color {
+  height: 100%;
+  background-color: #3B3838;
+  opacity: 0.33;
+}
+
+.float {
+  float: right;
+  right: 50%;
+  top: 50%; 
+}
+
 button {
   background-color: @color-yellow;
   border: @color-yellow;
@@ -31,23 +47,6 @@ h2 {
   .headers() !important;
   span {
     color: @color-red;
-  }
-}
-
-.pic {
-  display: block;
-  margin: auto;
-  opacity: 0.33;
-}
-
-.centered {
-  position: relative;
-  display: block;
-  margin:auto;
-  .logomiddle {
-    position: absolute;
-    top: 21%;
-    right: 40%;
   }
 }
 
