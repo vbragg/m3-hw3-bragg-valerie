@@ -30,12 +30,46 @@ button {
 h2 {
   .headers() !important;
   span {
-    .headers() !important;
+    color: @color-red;
+  }
+}
+
+.pic {
+  display: block;
+  margin: auto;
+  opacity: 0.33;
+}
+
+.centered {
+  position: relative;
+  display: block;
+  margin:auto;
+  .logomiddle {
+    position: absolute;
+    top: 21%;
+    right: 40%;
   }
 }
 
 p {
   .text();
+}
+
+#graysection {
+  background-color: @color-gray;
+}
+
+section {
+  padding: 2% 3%;
+  figure {
+    img {
+      min-width: 200px;
+      max-width: 232px;
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+  }
 }
 
 footer {
@@ -46,7 +80,7 @@ footer {
       padding: 3%;
       display: block;
       margin: auto;
-      max-width: 350px; 
+      max-width: 350px;
     }
   }
 }

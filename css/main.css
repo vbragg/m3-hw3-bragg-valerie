@@ -63,16 +63,41 @@ h2 {
   color: #050500 !important;
 }
 h2 span {
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 500 !important;
-  font-size: 1.875rem !important;
-  color: #050500 !important;
+  color: #ee252f;
+}
+.pic {
+  display: block;
+  margin: auto;
+  opacity: 0.33;
+}
+.centered {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.centered .logomiddle {
+  position: absolute;
+  top: 21%;
+  right: 40%;
 }
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: #050500;
+}
+#graysection {
+  background-color: #f3f3f3;
+}
+section {
+  padding: 2% 3%;
+}
+section figure img {
+  min-width: 200px;
+  max-width: 232px;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 footer {
   background-color: #080801;
