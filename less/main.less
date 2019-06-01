@@ -1,9 +1,52 @@
 @import "variables";
+@font-face {
 
-ul {
-  li {
-    span{
-      color: @color-red;
+}
+
+
+nav {
+  background-color: @color-yellow;
+  .navigation();
+  ul {
+    li {
+      display: inline;
+      list-style-type: none;
+      padding: 3%;
+      span {
+        color: @color-red;
+      }
+    }
+  }
+}
+
+button {
+  background-color: @color-yellow;
+  border: @color-yellow;
+  border-radius: 8px;
+  padding: 10px;
+  .links();
+}
+
+h2 {
+  .headers() !important;
+  span {
+    .headers() !important;
+  }
+}
+
+p {
+  .text();
+}
+
+footer {
+  background-color: @color-black-bg;
+  border-top: 6px solid @color-yellow;
+  figure{
+    img {
+      padding: 3%;
+      display: block;
+      margin: auto;
+      max-width: 350px; 
     }
   }
 }
