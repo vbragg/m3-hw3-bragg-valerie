@@ -16,11 +16,23 @@ nav {
   }
 }
 
-.background-image {
-  height: 500px;
-  background-image: url('banner-bg.png');
-  background-size: cover;
-  background-position: center;
+.banner {
+  .background-image {
+    height: 500px;
+    background-image: url('banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .overbanner {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
 
 .background-color {
@@ -29,11 +41,6 @@ nav {
   opacity: 0.33;
 }
 
-.float {
-  float: right;
-  right: 50%;
-  top: 50%; 
-}
 
 button {
   background-color: @color-yellow;
@@ -41,6 +48,10 @@ button {
   border-radius: 8px;
   padding: 10px;
   .links();
+}
+
+h1 {
+    display: hidden;
 }
 
 h2 {
